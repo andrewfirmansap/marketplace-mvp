@@ -7,7 +7,7 @@ function hashPassword($password) {
 }
 
 // User data
-$email = "andrewfirmansap@gmail.com";
+$email = "userandrew@gmail.com";
 $plainPassword = "123456";
 $hashedPassword = hashPassword($plainPassword);
 
