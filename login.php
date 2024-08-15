@@ -41,6 +41,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['email'])) {
                         </form>
                     </div>
                     <div class="card-footer text-center">
+                        <small style="color:black; weight:bold;">email:andrewfirmansap@gmail | pass:123456</small><br>
                         <?php
                         if (isset($_SESSION['login_error'])) {
                             echo '<small style="color:red;">' . $_SESSION["login_error"] . '</small><br>';
@@ -54,7 +55,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['email'])) {
         </div>
     </div>
 
-    
+
 </body>
 
 </html>

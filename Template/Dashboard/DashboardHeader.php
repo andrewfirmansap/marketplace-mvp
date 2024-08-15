@@ -46,10 +46,10 @@
 </head>
 <body>
     <div class="sidebar d-flex flex-column p-3">
-        <h5 class="text-center"><a href="dashboard.php"><?php echo htmlspecialchars($username); ?></a></h5>
+        <h5 class="text-center"><a href="dashboard.php"><?php echo ucfirst(substr(htmlspecialchars($username), 0, 8)); ?></a></h5>
         <ul class="nav flex-column mt-4">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Shop</a>
+                <a class="nav-link active" href="shop.php">Shop</a>
             </li>
         </ul>
         <ul class="nav flex-column mt-auto">
